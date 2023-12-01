@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
         //Obtenemos los tres botones de la interfaz
         gato = findViewById(R.id.Gato)
         perro = findViewById(R.id.Perro)
-        cerdo = findViewById(R.id.Cerdo)
+        cerdo = findViewById(R.id.Cerdo )
         //Y les asignamos el controlador de eventos
         gato!!.setOnClickListener(this);
         perro!!.setOnClickListener(this);

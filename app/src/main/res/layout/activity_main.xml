@@ -27,14 +27,16 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:clickable="true"
-            tools:src="@drawable/perro" />
+            tools:src="@drawable/perro"
+            android:src="@drawable/perro"/>
 
         <ImageButton
             android:id="@+id/Cerdo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            tools:src="@drawable/cerdo" />
+            tools:src="@drawable/cerdo"
+            android:src="@drawable/cerdo"/>
 
     </LinearLayout>
 
